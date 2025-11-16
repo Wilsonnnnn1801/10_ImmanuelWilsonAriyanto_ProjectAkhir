@@ -1,0 +1,258 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background: #111; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.nav-links a {
+    margin-left: 25px;
+    color: #f0f0f0;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a2f19b; 
+}
+
+.login-btn {
+    background: #fff;
+    color: #000000;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background: #d6bd6a;
+}
+
+.register-box {
+    background: #b5b5b5;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 80px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.register-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px 2px #852785;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #111;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #c26e9f;
+}
+
+/* About Page */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    min-height: 80vh;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.about-content {
+    max-width: 800px;
+    background: #b5b5b5;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* button about */
+.about-btn {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.about-btn:hover {
+    background: #c26e9f;
+}
+
+/* Timeline Page */
+.plan-container {
+    background: #b5b5b5;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 80px;
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.plan-container h2 {
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.timeline-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.timeline-table th {
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.timeline-table td {
+    padding: 12px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.timeline-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.timeline-table tr:hover {
+    background: #ffefdb;
+}
+
+.no-plan {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.no-plan a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 600;
+}
+.no-plan a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #111;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom:-40px;
+}
+
+.register-btn {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-btn:hover {
+    background-color: #c26e9f;
+}
